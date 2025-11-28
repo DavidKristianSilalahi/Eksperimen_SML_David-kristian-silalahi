@@ -1,0 +1,30 @@
+{
+    "preprocessing_info": {
+        "dataset": "Iris",
+        "preprocessing_method": "StandardScaler",
+        "train_test_split": "80-20",
+        "stratified": true,
+        "random_state": 42
+    },
+    "dataset_info": {
+        "features": [
+            "sepal length (cm)",
+            "sepal width (cm)",
+            "petal length (cm)",
+            "petal width (cm)"
+        ],
+        "target_classes": [
+            "setosa",
+            "versicolor",
+            "virginica"
+        ],
+        "missing_values": 0,
+        "duplicate_rows": 1
+    },
+    "files_created": [
+        "X_train.csv",
+        "X_test.csv",
+        "y_train.csv",
+        "y_test.csv"
+    ]
+}
